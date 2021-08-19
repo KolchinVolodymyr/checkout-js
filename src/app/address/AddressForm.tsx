@@ -190,6 +190,8 @@ class AddressForm extends Component<AddressFormProps & WithLanguageProps> {
         }
         onChange(fieldName, value);
     };
+
+
 }
 
 export default withLanguage(AddressForm);
